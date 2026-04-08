@@ -1,0 +1,548 @@
+{
+  "business": {
+    "name": "Ram Electric",
+    "phone": "+15029685502",
+    "category": "electrician",
+    "city": "Louisville",
+    "state": "KY"
+  },
+  "design": {
+    "preset": {
+      "id": "roofing-trust-navy",
+      "categoryGroup": "roofing",
+      "name": "Trust Navy",
+      "recipeFile": "roofing/trust-navy.astro",
+      "colors": {
+        "primary": "#2C4563",
+        "primaryDark": "#1B2F45",
+        "primaryLight": "#D4E0ED",
+        "secondary": "#3D5A80",
+        "accent": "#3D6B5A",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#2C4563",
+        "surface": "#F4F6F8",
+        "text": "#1A1A2E",
+        "textLight": "#4A5568",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "700",
+        "bodyFont": "Source Sans 3",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "6px",
+        "buttonRadius": "6px",
+        "cardRadius": "10px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "dark",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "roofing/trust-navy"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Louisville's Trusted Electricians",
+      "heroSubline": "Reliable electrical services for your home or business. Ram Electric: Powering Louisville since 2012.",
+      "aboutTitle": "Your Louisville Electrical Experts",
+      "aboutText": [
+        "Ram Electric started with a simple goal: provide honest, reliable electrical services to our Louisville neighbors. We're not just electricians; we're your neighbors, committed to keeping our community powered safely and efficiently.",
+        "We believe in doing the job right the first time. Our team is built on experience, training, and a dedication to exceeding expectations. Clear communication, upfront pricing, and meticulous workmanship are at the heart of our approach.",
+        "We're proud to be a part of the Louisville community. From supporting local events to providing reliable electrical services for our friends and neighbors, we're invested in the success of our city."
+      ],
+      "valueProps": [
+        {
+          "title": "Experienced Technicians",
+          "description": "Our team has decades of combined experience handling any electrical challenge."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No surprises. We provide clear, detailed quotes before any work begins."
+        },
+        {
+          "title": "24/7 Emergency Service",
+          "description": "Electrical emergencies don't wait. We're available around the clock."
+        },
+        {
+          "title": "Licensed & Insured",
+          "description": "Protecting you and your property is our top priority. We are fully licensed and insured."
+        }
+      ],
+      "ctaHeadline": "Get a Free Electrical Estimate",
+      "ctaSubline": "Discuss your project with our experts. Call Ram Electric today!"
+    },
+    "services": [
+      {
+        "slug": "residential-electrical-services",
+        "name": "Residential Electrical Services",
+        "shortDescription": "Comprehensive electrical solutions for Louisville homes, ensuring safety and efficiency.",
+        "description": "From wiring upgrades in historic Old Louisville homes to installing modern lighting in new developments, Ram Electric provides complete residential electrical services. We understand the unique challenges presented by Louisville's diverse housing stock and weather patterns. Our services include everything from routine repairs and maintenance to full home rewiring and electrical panel upgrades. We ensure your home's electrical system is safe, reliable, and up to code. \n\nWhether you're dealing with flickering lights, faulty outlets, or considering a home renovation project, our licensed electricians will diagnose the problem accurately and provide cost-effective solutions. We also specialize in installing energy-efficient lighting and smart home technology to help you save money and enhance your home's comfort and convenience. Louisville homes can be susceptible to electrical issues from spring storms, so we also provide surge protection and backup generator installations.",
+        "process": [
+          "Step 1: Schedule a Consultation - Contact us to discuss your electrical needs and schedule a convenient appointment.",
+          "Step 2: Thorough Inspection - Our experienced electricians will conduct a detailed inspection of your electrical system.",
+          "Step 3: Transparent Quote - We'll provide a clear, upfront quote outlining the scope of work and associated costs.",
+          "Step 4: Expert Service - Our skilled technicians will perform the necessary repairs or installations with precision and care."
+        ],
+        "benefits": [
+          "Enhanced Home Safety",
+          "Increased Energy Efficiency",
+          "Improved Home Value",
+          "Peace of Mind"
+        ],
+        "faq": [
+          {
+            "question": "How often should I have my home's electrical system inspected?",
+            "answer": "We recommend a comprehensive electrical inspection every 3-5 years, especially for older homes. Regular inspections can identify potential hazards and prevent costly repairs."
+          },
+          {
+            "question": "What are the signs that my electrical panel needs to be upgraded?",
+            "answer": "Common signs include flickering lights, frequently tripped breakers, and a burning smell coming from the panel. An outdated panel can be a fire hazard and should be replaced promptly."
+          },
+          {
+            "question": "Do you offer emergency electrical services?",
+            "answer": "Yes, we provide 24/7 emergency electrical services for Louisville residents. Call us anytime for immediate assistance with urgent electrical issues."
+          }
+        ]
+      },
+      {
+        "slug": "commercial-electrical-services",
+        "name": "Commercial Electrical Services",
+        "shortDescription": "Reliable electrical solutions for Louisville businesses, minimizing downtime and maximizing efficiency.",
+        "description": "Ram Electric provides comprehensive commercial electrical services to businesses throughout Louisville. We understand that electrical issues can disrupt operations and impact your bottom line. Our team is equipped to handle a wide range of commercial electrical needs, from routine maintenance and repairs to complex installations and upgrades. We serve diverse businesses including restaurants in NuLu, retail shops in St. Matthews, and offices downtown.\n\nOur commercial services include electrical system design, wiring and rewiring, lighting installation and maintenance, panel upgrades, and emergency repairs. We also specialize in energy-efficient lighting solutions and surge protection to help businesses reduce their energy costs and protect their valuable equipment. We are committed to providing prompt, reliable service to minimize downtime and keep your business running smoothly. We understand the importance of code compliance and safety, ensuring all work is performed to the highest standards.",
+        "process": [
+          "Step 1: Initial Consultation - Discuss your commercial electrical needs with our experienced team.",
+          "Step 2: Site Assessment - We'll conduct a thorough assessment of your electrical infrastructure.",
+          "Step 3: Customized Solution - We'll develop a tailored electrical plan to meet your specific requirements.",
+          "Step 4: Professional Installation - Our certified electricians will complete the project efficiently and effectively."
+        ],
+        "benefits": [
+          "Reduced Energy Costs",
+          "Improved Safety",
+          "Minimized Downtime",
+          "Enhanced Productivity"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond to a commercial electrical emergency?",
+            "answer": "We offer 24/7 emergency commercial electrical services and strive to respond to urgent calls within an hour, depending on your location in Louisville."
+          },
+          {
+            "question": "Do you offer maintenance contracts for commercial properties?",
+            "answer": "Yes, we offer customized maintenance contracts to help businesses keep their electrical systems in top condition and prevent costly breakdowns."
+          },
+          {
+            "question": "Are you familiar with Louisville's electrical codes and regulations?",
+            "answer": "Yes, we are fully compliant with all local and national electrical codes and regulations, ensuring your business is always up to code."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-panel-upgrades",
+        "name": "Electrical Panel Upgrades",
+        "shortDescription": "Upgrade your electrical panel for increased safety and power capacity in your Louisville home.",
+        "description": "Is your electrical panel outdated or struggling to keep up with your power demands? Ram Electric specializes in electrical panel upgrades for Louisville homes. An outdated panel can be a fire hazard and may not be able to handle the increasing electrical loads of modern appliances and electronics. We'll assess your current electrical needs and recommend the appropriate panel upgrade to ensure your home's electrical system is safe, reliable, and capable of handling your power requirements. This is especially important in older Louisville homes where original panels may be inadequate.\n\nOur experienced electricians will handle every aspect of the panel upgrade process, from disconnecting the old panel to installing the new one and ensuring it's properly grounded and connected. We only use high-quality panels and components to ensure long-lasting performance and safety. We will obtain all necessary permits and coordinate with local inspectors to ensure your panel upgrade meets all code requirements. Common reasons for panel upgrades include home renovations, adding new appliances, and installing electric vehicle chargers.",
+        "process": [
+          "Step 1: Electrical Load Assessment - We'll evaluate your current and future electrical needs.",
+          "Step 2: Panel Selection - We'll recommend the best panel for your specific requirements.",
+          "Step 3: Safe Disconnection - We'll safely disconnect and remove your old electrical panel.",
+          "Step 4: Professional Installation - We'll install the new panel and ensure proper grounding and connections."
+        ],
+        "benefits": [
+          "Increased Electrical Capacity",
+          "Enhanced Safety",
+          "Improved Home Value",
+          "Peace of Mind"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my electrical panel needs to be upgraded?",
+            "answer": "Common signs include frequently tripped breakers, flickering lights, and a burning smell coming from the panel. If you're experiencing these issues, it's time to call Ram Electric for an assessment."
+          },
+          {
+            "question": "How long does an electrical panel upgrade take?",
+            "answer": "Most panel upgrades can be completed in one day, but the exact timeframe depends on the complexity of the project."
+          },
+          {
+            "question": "Do I need a permit for an electrical panel upgrade?",
+            "answer": "Yes, a permit is required for electrical panel upgrades in Louisville. We will handle all the necessary permitting and inspections."
+          }
+        ]
+      },
+      {
+        "slug": "lighting-installation",
+        "name": "Lighting Installation",
+        "shortDescription": "Expert lighting installation services for homes and businesses in Louisville, enhancing aesthetics and functionality.",
+        "description": "Ram Electric offers professional lighting installation services for residential and commercial properties in Louisville. Whether you're looking to upgrade your home's lighting, install new fixtures in your business, or create a custom lighting design, our experienced electricians can help. We work with a wide range of lighting options, including recessed lighting, pendant lights, track lighting, landscape lighting, and energy-efficient LED lighting. We understand the importance of proper lighting for both aesthetics and functionality, and we'll work with you to create a lighting plan that meets your specific needs and preferences. The historic neighborhoods of Louisville call for unique lighting solutions that we are proud to offer.\n\nOur lighting installation services include wiring, fixture installation, dimmer switch installation, and lighting control systems. We also offer energy-efficient lighting upgrades to help you save money on your electricity bills. We are committed to providing high-quality workmanship and exceptional customer service. Before starting any project, we’ll provide a cost estimate, ensuring a transparent process.",
+        "process": [
+          "Step 1: Lighting Design Consultation - Discuss your lighting goals and preferences with our design team.",
+          "Step 2: Fixture Selection - Choose from a wide variety of lighting fixtures and styles.",
+          "Step 3: Professional Installation - Our skilled electricians will install your new lighting fixtures with precision.",
+          "Step 4: Final Inspection - We'll ensure your new lighting system is working properly and meets your expectations."
+        ],
+        "benefits": [
+          "Enhanced Ambiance",
+          "Increased Energy Efficiency",
+          "Improved Security",
+          "Enhanced Property Value"
+        ],
+        "faq": [
+          {
+            "question": "What are the benefits of switching to LED lighting?",
+            "answer": "LED lighting is more energy-efficient, lasts longer, and produces less heat than traditional lighting options. Switching to LED lighting can save you money on your electricity bills and reduce your carbon footprint."
+          },
+          {
+            "question": "Can you install smart lighting systems?",
+            "answer": "Yes, we specialize in installing smart lighting systems that allow you to control your lights from your smartphone or other devices."
+          },
+          {
+            "question": "Do you offer outdoor lighting installation?",
+            "answer": "Yes, we offer a full range of outdoor lighting services, including landscape lighting, security lighting, and patio lighting."
+          }
+        ]
+      },
+      {
+        "slug": "electrical-repairs",
+        "name": "Electrical Repairs",
+        "shortDescription": "Fast and reliable electrical repair services for Louisville homes and businesses, ensuring safety and functionality.",
+        "description": "Ram Electric provides prompt and reliable electrical repair services for homes and businesses throughout Louisville. From minor repairs such as replacing outlets and switches to major repairs such as fixing faulty wiring and electrical panels, our experienced electricians can handle any electrical issue. We understand that electrical problems can be disruptive and even dangerous, so we offer 24/7 emergency repair services to address urgent electrical needs. We are familiar with the common electrical issues that affect Louisville homes and businesses, including those related to seasonal weather and older infrastructure.\n\nOur electrical repair services include troubleshooting, wiring repairs, outlet and switch replacements, circuit breaker replacements, and electrical panel repairs. We use advanced diagnostic equipment to quickly identify the source of the problem and provide effective solutions. We are committed to providing transparent pricing and exceptional customer service. Our goal is to restore your electrical system to its optimal condition as quickly and safely as possible.",
+        "process": [
+          "Step 1: Problem Diagnosis - Our electricians will thoroughly diagnose the electrical issue.",
+          "Step 2: Repair Plan - We'll develop a detailed repair plan with transparent pricing.",
+          "Step 3: Professional Repair - Our skilled technicians will perform the necessary repairs with precision.",
+          "Step 4: Safety Inspection - We'll ensure the repaired system is safe and functioning properly."
+        ],
+        "benefits": [
+          "Restored Electrical Functionality",
+          "Enhanced Safety",
+          "Peace of Mind",
+          "Prevention of Further Damage"
+        ],
+        "faq": [
+          {
+            "question": "How quickly can you respond to an electrical repair request?",
+            "answer": "We offer 24/7 emergency repair services and strive to respond to urgent calls within an hour, depending on your location in Louisville."
+          },
+          {
+            "question": "What are the common electrical problems you see in Louisville?",
+            "answer": "Common problems include faulty wiring in older homes, damage from spring storms, and overloaded circuits due to increased appliance usage."
+          },
+          {
+            "question": "Do you offer a warranty on your electrical repairs?",
+            "answer": "Yes, we stand behind our work and offer a warranty on all electrical repairs."
+          }
+        ]
+      },
+      {
+        "slug": "surge-protection",
+        "name": "Surge Protection",
+        "shortDescription": "Protect your Louisville home or business from power surges with our expert surge protection services.",
+        "description": "Ram Electric provides comprehensive surge protection services to safeguard your valuable electronics and appliances from power surges. Power surges can occur due to lightning strikes, utility grid fluctuations, or even internal factors such as appliances turning on and off. These surges can damage or destroy sensitive electronic equipment, leading to costly repairs or replacements. We understand the importance of protecting your investment, and we offer a variety of surge protection solutions to meet your specific needs. Louisville, with its volatile weather, is particularly susceptible to power surges.\n\nOur surge protection services include whole-house surge protectors, surge protector strips, and dedicated circuit surge protectors. We'll assess your electrical system and recommend the appropriate surge protection solutions to provide comprehensive protection. Our experienced electricians will install the surge protection devices correctly and ensure they are properly grounded. We are committed to providing peace of mind and protecting your valuable possessions.",
+        "process": [
+          "Step 1: Surge Risk Assessment - We'll evaluate your property's surge risk factors.",
+          "Step 2: Protection Solution Recommendation - We'll recommend the best surge protection solutions.",
+          "Step 3: Professional Installation - Our skilled technicians will install surge protection devices.",
+          "Step 4: System Testing - We'll test the surge protection system to ensure proper functionality."
+        ],
+        "benefits": [
+          "Protection of Electronics",
+          "Prevention of Costly Repairs",
+          "Peace of Mind",
+          "Extended Appliance Lifespan"
+        ],
+        "faq": [
+          {
+            "question": "What is a whole-house surge protector?",
+            "answer": "A whole-house surge protector is installed at your electrical panel and protects all the electrical circuits in your home from power surges."
+          },
+          {
+            "question": "How often should I replace my surge protector strips?",
+            "answer": "Surge protector strips should be replaced every 2-3 years, or after a major surge event."
+          },
+          {
+            "question": "Are surge protectors covered by my home insurance?",
+            "answer": "Some home insurance policies may cover damage from power surges, but it's important to check with your insurance provider."
+          }
+        ]
+      }
+    ],
+    "serviceAreas": [
+      {
+        "city": "Louisville",
+        "slug": "louisville-ky",
+        "state": "KY",
+        "content": "Ram Electric is proud to serve the Louisville, Kentucky area with top-notch electrical services. From historic homes in Old Louisville to modern constructions downtown, we're equipped to handle any electrical need.\n\nWe offer a wide range of services, including electrical repairs, installations, upgrades, and maintenance. Our team of licensed and experienced electricians is committed to providing safe, reliable, and efficient solutions for your home or business. We understand the unique electrical challenges faced by Louisville residents and businesses, and we're here to help you keep your property powered and safe.",
+        "localContext": "Louisville's diverse architecture and vibrant neighborhoods demand a skilled electrician familiar with both old and new electrical systems.",
+        "nearbyAreas": [
+          "Shively",
+          "St. Matthews",
+          "Jeffersontown"
+        ]
+      },
+      {
+        "city": "Shively",
+        "slug": "shively-ky",
+        "state": "KY",
+        "content": "Ram Electric extends its premier electrical services to Shively, Kentucky. We are dedicated to providing the Shively community with exceptional electrical solutions, ensuring the safety and efficiency of your home or business.\n\nOur experienced electricians are equipped to manage all your electrical needs, from routine repairs and installations to comprehensive system upgrades. We understand the specific requirements of Shively's residential and commercial properties, offering tailored services to meet your unique electrical demands. Trust Ram Electric to keep your property powered safely and effectively.",
+        "localContext": "Shively, known for its industrial history and close-knit community, benefits from reliable electrical services to support its residents and businesses.",
+        "nearbyAreas": [
+          "Louisville",
+          "Pleasure Ridge Park",
+          "Valley Station"
+        ]
+      },
+      {
+        "city": "St. Matthews",
+        "slug": "st-matthews-ky",
+        "state": "KY",
+        "content": "Ram Electric is dedicated to providing the residents and businesses of St. Matthews, Kentucky, with exceptional electrical services. We understand the unique electrical needs of this vibrant community and are committed to delivering top-quality workmanship and customer satisfaction.\n\nWhether you require routine maintenance, complex repairs, or new installations, our team of skilled electricians is ready to assist you. We pride ourselves on our prompt response times, transparent pricing, and commitment to safety. Trust Ram Electric to keep your St. Matthews property powered and protected.",
+        "localContext": "St. Matthews, a bustling suburb with a mix of residential and commercial properties, relies on dependable electrical services to support its dynamic environment.",
+        "nearbyAreas": [
+          "Louisville",
+          "Lyndon",
+          "Indian Hills"
+        ]
+      },
+      {
+        "city": "Jeffersontown",
+        "slug": "jeffersontown-ky",
+        "state": "KY",
+        "content": "Ram Electric proudly serves Jeffersontown, Kentucky, offering a comprehensive range of electrical services to homes and businesses in the area. Our commitment to quality, safety, and customer satisfaction makes us the preferred choice for all your electrical needs.\n\nFrom troubleshooting electrical issues to installing new lighting fixtures and electrical panels, our experienced electricians have the knowledge and expertise to handle any project. We understand the specific electrical requirements of Jeffersontown's diverse properties and are dedicated to providing reliable and efficient solutions. Let Ram Electric be your trusted partner for all your electrical needs in Jeffersontown.",
+        "localContext": "Jeffersontown, a thriving community with a blend of residential, commercial, and industrial areas, requires versatile electrical services to support its diverse needs.",
+        "nearbyAreas": [
+          "Louisville",
+          "Fern Creek",
+          "Middletown"
+        ]
+      },
+      {
+        "city": "Lyndon",
+        "slug": "lyndon-ky",
+        "state": "KY",
+        "content": "Ram Electric is pleased to offer its professional electrical services to the residents and businesses of Lyndon, Kentucky. We are committed to providing top-notch workmanship, exceptional customer service, and reliable solutions for all your electrical needs.\n\nOur team of licensed and insured electricians is equipped to handle a wide range of services, including electrical repairs, installations, upgrades, and maintenance. We understand the unique electrical challenges faced by Lyndon property owners and are dedicated to providing safe, efficient, and cost-effective solutions. Trust Ram Electric to keep your Lyndon property powered and protected.",
+        "localContext": "Lyndon, a well-established residential community, relies on dependable electrical services to maintain the safety and functionality of its homes.",
+        "nearbyAreas": [
+          "St. Matthews",
+          "Louisville",
+          "Hurstbourne"
+        ]
+      },
+      {
+        "city": "Middletown",
+        "slug": "middletown-ky",
+        "state": "KY",
+        "content": "Ram Electric proudly serves the Middletown, Kentucky area, providing comprehensive electrical solutions for residential and commercial properties. We are committed to delivering exceptional service, superior workmanship, and reliable results.\n\nOur experienced electricians are equipped to handle any electrical project, from routine repairs to complex installations. We understand the specific electrical needs of Middletown's diverse properties and are dedicated to providing tailored solutions to meet your unique requirements. Trust Ram Electric to keep your Middletown property powered safely and efficiently.",
+        "localContext": "Middletown, a growing suburban community with a mix of historic and modern homes, benefits from a versatile electrical service provider.",
+        "nearbyAreas": [
+          "Jeffersontown",
+          "Anchorage",
+          "Douglass Hills"
+        ]
+      },
+      {
+        "city": "Anchorage",
+        "slug": "anchorage-ky",
+        "state": "KY",
+        "content": "Ram Electric is delighted to provide electrical services to the residents of Anchorage, Kentucky. We are dedicated to providing top-quality workmanship and customer satisfaction, ensuring the safety and efficiency of your home.\n\nOur experienced electricians are equipped to manage all your electrical needs, from routine repairs and installations to comprehensive system upgrades. We understand the specific requirements of Anchorage's residential properties, offering tailored services to meet your unique electrical demands. Trust Ram Electric to keep your property powered safely and effectively.",
+        "localContext": "Anchorage, known for its historic homes and beautiful landscapes, requires reliable electrical services to maintain its charm and functionality.",
+        "nearbyAreas": [
+          "Middletown",
+          "Lyndon",
+          "Pewee Valley"
+        ]
+      },
+      {
+        "city": "Valley Station",
+        "slug": "valley-station-ky",
+        "state": "KY",
+        "content": "Ram Electric is dedicated to providing the residents and businesses of Valley Station, Kentucky, with exceptional electrical services. We understand the unique electrical needs of this community and are committed to delivering top-quality workmanship and customer satisfaction.\n\nWhether you require routine maintenance, complex repairs, or new installations, our team of skilled electricians is ready to assist you. We pride ourselves on our prompt response times, transparent pricing, and commitment to safety. Trust Ram Electric to keep your Valley Station property powered and protected.",
+        "localContext": "Valley Station, a residential area with a strong sense of community, relies on dependable electrical services to support its residents' needs.",
+        "nearbyAreas": [
+          "Pleasure Ridge Park",
+          "Shively",
+          "Louisville"
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Sarah M.",
+        "rating": 5,
+        "service": "Electrical Panel Upgrade",
+        "text": "Ram Electric did an amazing job upgrading our electrical panel. We live in an older home in the Highlands, and they were very careful and professional. The new panel has made a huge difference, and we no longer have to worry about tripped breakers. Highly recommend!",
+        "date": "2024-11-15"
+      },
+      {
+        "name": "David K.",
+        "rating": 4,
+        "service": "Lighting Installation",
+        "text": "We hired Ram Electric to install recessed lighting in our kitchen, and we're very happy with the results. The electricians were punctual, courteous, and did a great job. There was a small delay in getting the fixtures but the communication was great.",
+        "date": "2024-12-01"
+      },
+      {
+        "name": "Jessica L.",
+        "rating": 5,
+        "service": "Commercial Electrical Repairs",
+        "text": "Ram Electric is our go-to for all our commercial electrical needs. They are responsive, reliable, and always do a great job. We own a restaurant in NuLu, and they've helped us with everything from fixing faulty wiring to installing new equipment.",
+        "date": "2025-01-10"
+      },
+      {
+        "name": "Michael B.",
+        "rating": 5,
+        "service": "Emergency Electrical Service",
+        "text": "I had an electrical emergency late one night, and Ram Electric was there within an hour. The electrician was professional and quickly diagnosed the problem. He was able to fix it on the spot, and I was so relieved. I highly recommend them for any electrical emergency.",
+        "date": "2025-02-20"
+      },
+      {
+        "name": "Jennifer P.",
+        "rating": 4,
+        "service": "Surge Protection Installation",
+        "text": "With all the storms we get in Louisville, I wanted to make sure my electronics were protected. Ram Electric installed a whole-house surge protector, and I feel much better knowing my appliances are safe. The installation was quick and easy, and the price was reasonable.",
+        "date": "2025-03-05"
+      },
+      {
+        "name": "Robert S.",
+        "rating": 5,
+        "service": "Residential Electrical Services",
+        "text": "Ram Electric rewired my entire home and did an excellent job. The team was professional, knowledgeable, and efficient. They explained everything clearly and answered all my questions. My house is safer and more energy-efficient now.",
+        "date": "2025-03-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Ram Electric | Louisville Electrician",
+        "description": "Trusted electricians in Louisville, KY. Residential & commercial electrical services. Panel upgrades, lighting, repairs & more. Call today!"
+      },
+      "about": {
+        "title": "About Ram Electric | Louisville, KY",
+        "description": "Learn about Ram Electric, your local Louisville electricians. Reliable service, experienced technicians, and commitment to quality."
+      },
+      "services": {
+        "title": "Electrical Services | Ram Electric Louisville",
+        "description": "Comprehensive electrical services in Louisville, KY. Panel upgrades, lighting installation, electrical repairs, and more. Get a free quote!"
+      },
+      "contact": {
+        "title": "Contact Ram Electric | Louisville, KY",
+        "description": "Contact Ram Electric for reliable electrical services in Louisville. Call us today for a free estimate and expert solutions."
+      },
+      "reviews": {
+        "title": "Ram Electric Reviews | Louisville, KY",
+        "description": "Read reviews for Ram Electric, your trusted Louisville electricians. See what our satisfied customers are saying about our service."
+      },
+      "service-areas": {
+        "title": "Ram Electric Service Areas",
+        "description": "Ram Electric provides electrical services throughout Louisville, KY and surrounding areas. Find out if we serve your neighborhood."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    }
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "residential-electrical-services": "/images/service-residential-electrical-services.webp",
+      "commercial-electrical-services": "/images/service-commercial-electrical-services.webp",
+      "electrical-panel-upgrades": "/images/service-electrical-panel-upgrades.webp",
+      "lighting-installation": "/images/service-lighting-installation.webp",
+      "electrical-repairs": "/images/service-electrical-repairs.webp",
+      "surge-protection": "/images/service-surge-protection.webp"
+    },
+    "servicesResponsive": {
+      "residential-electrical-services": {
+        "src": "/images/service-residential-electrical-services.webp",
+        "srcset": "/images/service-residential-electrical-services-400w.webp 400w, /images/service-residential-electrical-services-800w.webp 800w, /images/service-residential-electrical-services-1200w.webp 1200w, /images/service-residential-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "commercial-electrical-services": {
+        "src": "/images/service-commercial-electrical-services.webp",
+        "srcset": "/images/service-commercial-electrical-services-400w.webp 400w, /images/service-commercial-electrical-services-800w.webp 800w, /images/service-commercial-electrical-services-1200w.webp 1200w, /images/service-commercial-electrical-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-panel-upgrades": {
+        "src": "/images/service-electrical-panel-upgrades.webp",
+        "srcset": "/images/service-electrical-panel-upgrades-400w.webp 400w, /images/service-electrical-panel-upgrades-800w.webp 800w, /images/service-electrical-panel-upgrades-1200w.webp 1200w, /images/service-electrical-panel-upgrades.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "lighting-installation": {
+        "src": "/images/service-lighting-installation.webp",
+        "srcset": "/images/service-lighting-installation-400w.webp 400w, /images/service-lighting-installation-800w.webp 800w, /images/service-lighting-installation-1200w.webp 1200w, /images/service-lighting-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "electrical-repairs": {
+        "src": "/images/service-electrical-repairs.webp",
+        "srcset": "/images/service-electrical-repairs-400w.webp 400w, /images/service-electrical-repairs-800w.webp 800w, /images/service-electrical-repairs-1200w.webp 1200w, /images/service-electrical-repairs.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "surge-protection": {
+        "src": "/images/service-surge-protection.webp",
+        "srcset": "/images/service-surge-protection-400w.webp 400w, /images/service-surge-protection-800w.webp 800w, /images/service-surge-protection-1200w.webp 1200w, /images/service-surge-protection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
